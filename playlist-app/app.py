@@ -142,6 +142,6 @@ def add_song_to_playlist(playlist_id):
 
         return redirect(f"/playlists/{playlist_id}")
 
-    return render_template("add_song_to_playlist.html", playlist=playlist, orm=form)
+    return render_template("add_song_to_playlist.html", playlist=playlist, form=form)
 
 
